@@ -6,25 +6,25 @@ namespace RPGPart2
 {
     public class Dice
     {
-        Random rand = new Random();
-        public int D20()
+        static Random rand = new Random();
+        public static int D20()
         {
             return rand.Next(1, 21);
         }
 
 
-        public int D8()
+        public static int D8()
         {
             return rand.Next(1, 9);
         }
 
-        public int D6()
+        public static int D6()
         {
 
             return rand.Next(1, 7);
         }
 
-        public int D4()
+        public static int D4()
         {
             return rand.Next(1, 5);
         }
