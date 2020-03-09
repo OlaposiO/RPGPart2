@@ -8,23 +8,23 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\DShelton\\.nuget\\packages\\": {},
+    "C:\\Users\\oomishope\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\DShelton\\OneDrive - Knex\\Documents\\2020code\\RPGPart2\\RPGPart2\\RPGPart2.csproj",
+      "projectUniqueName": "C:\\Users\\oomishope\\source\\repos\\RPGPart2\\RPGPart2\\RPGPart2.csproj",
       "projectName": "RPGPart2",
-      "projectPath": "C:\\Users\\DShelton\\OneDrive - Knex\\Documents\\2020code\\RPGPart2\\RPGPart2\\RPGPart2.csproj",
-      "packagesPath": "C:\\Users\\DShelton\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\DShelton\\OneDrive - Knex\\Documents\\2020code\\RPGPart2\\RPGPart2\\obj\\",
+      "projectPath": "C:\\Users\\oomishope\\source\\repos\\RPGPart2\\RPGPart2\\RPGPart2.csproj",
+      "packagesPath": "C:\\Users\\oomishope\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\oomishope\\source\\repos\\RPGPart2\\RPGPart2\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\DShelton\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\oomishope\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
