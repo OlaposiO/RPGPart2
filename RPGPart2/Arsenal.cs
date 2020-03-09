@@ -1,5 +1,6 @@
 ﻿    enum Arsenal
     {
+        None,
         GreatSword,
         Dagger,
         Staff,

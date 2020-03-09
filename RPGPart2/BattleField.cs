@@ -8,8 +8,7 @@ namespace RPGPart2
     {
         public bool Hit(int weaknessMod, int Armor)
         {
-            int hitRoll = Dice.D20();
-            hitRoll += weaknessMod;
+            int hitRoll = Dice.D20() + weaknessMod;
             if (hitRoll >= Armor)
             {
                 return true;
