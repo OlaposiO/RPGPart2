@@ -7,14 +7,16 @@ namespace RPGPart2
     class Warrior : Character
 
     {
-        private string weapon;
+        private Arsenal weapon;
 
-        public string Weapon { get => weapon; set => weapon = value; }
+        public Arsenal Weapon { get => weapon; set => weapon = value; }
 
-        public Warrior(int hitPoints, int strength, int dex, int intelligence, int armor, string weapon)
-            :base(hitPoints, strength, dex, intelligence, armor)
+        public Warrior(string characterName, int hitPoints, int strength, int dex, int intelligence, int armor, Arsenal weapon, Arsenal weaknessMod, bool IsAlive, bool IsPlayer)
+            :base(characterName, hitPoints, strength, dex, intelligence, armor, weaknessMod, IsAlive, IsPlayer)
         {
-            this.weapon = weapon;
+            this.Job = "Warrior";
+            this.Weapon = weapon;
+            this.IsPlayer = true;
         }
     }
 }
