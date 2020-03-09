@@ -20,6 +20,7 @@ namespace RPGPart2
 
         public int D6()
         {
+
             return rand.Next(1, 7);
         }
 
